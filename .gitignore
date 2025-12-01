@@ -1,0 +1,56 @@
+# Node dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+
+# Build outputs
+dist/
+build/
+
+# Cache
+.cache/
+.next/
+.nuxt/
+temp/
+tmp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor stuff
+.vscode/
+.idea/
+
+# Mongo dump files
+dump/
+
+# Server-specific
+coverage/
+*.pid
+*.seed
+*.pid.lock
+
+# React-specific
+*.env.*.local
+.sass-cache/
+.parcel-cache/
+*.tsbuildinfo
+
+# Optional: if you're using uploads folder locally
+uploads/
+public/uploads/
+
